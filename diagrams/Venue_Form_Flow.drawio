@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram name="Venue Form Flow" id="Flow1">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Start" style="shape=ellipse;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="200" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Screen: Venue Details&#xa;(Name, Email, Phone, Location, Latitude, Longitude)" style="shape=rectangle;fillColor=#6a00ff;strokeColor=#3700CC;whiteSpace=wrap;fontColor=#ffffff;fillStyle=auto;" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Create Record: Venue" style="shape=rectangle;fillColor=#6a00ff;strokeColor=#3700CC;whiteSpace=wrap;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="200" y="240" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Save Confirmation" style="shape=rectangle;fillColor=#d80073;strokeColor=#A50040;whiteSpace=wrap;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="200" y="340" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="End" style="shape=ellipse;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="200" y="440" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
