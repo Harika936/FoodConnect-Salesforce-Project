@@ -30,5 +30,5 @@ FoodConnect is a Salesforce-based CRM solution that streamlines the process of s
 
 ---
 
-**Author**: Your Name  
+**Author**: Setti Harika  
 **License**: MIT
